@@ -257,7 +257,7 @@ async function track(){
 
 /* ---------- แอดมิน ---------- */
 async function openAdmin(){
-  if(!isAdmin){const p=prompt("ใส่รหัสแอดมิน");if(p!==CONFIG.adminPin){if(p!==null)alert("รหัสไม่ถูกต้อง");return}isAdmin=true}
+  if(!isAdmin){const p=prompt("230452");if(p!==CONFIG.adminPin){if(p!==null)alert("รหัสไม่ถูกต้อง");return}isAdmin=true}
   openM("mAdmin");
   if(useSheet()&&tab==="orders")await loadSheetOrders();
   renderAdmin();
