@@ -1,2 +1,0 @@
-# Heyday-shop
--
